@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrahman Aladwan - Professional Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">
+            <img src="assets/signature.png" alt="Abdulrahman Aladwan Signature" class="logo-signature">
+        </a>
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#timeline" class="nav-link">Timeline</a></li>
+            <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" role="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container animate-scale">
+                <div class="profile-image">
+                    <img src="assets\profile.jpeg" alt="Abdulrahman Aladwan" loading="lazy">
+                </div>
+            </div>
+            <h1 class="animate-on-scroll">Abdulrahman Aladwan</h1>
+            <div class="hero-subtitle animate-on-scroll">
+                <span id="typingText">Mechatronics Engineer • Business Developer • Sales Professional</span>
+                <span class="typing-cursor">|</span>
+            </div>
+            <p class="hero-description animate-on-scroll">
+                Highly motivated engineering student with a proven track record in business development,
+                network marketing, and exceptional sales performance across multiple countries
+            </p>
+            <div class="badges animate-on-scroll">
+                <div class="badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Amman, Jordan</span>
+                </div>
+
+            </div>
+            <div class="cta-container animate-on-scroll">
+                <a href="#about" class="cta-button">
+                    <i class="fas fa-arrow-down"></i>
+                    Explore My Journey
+                </a>
+            </div>
+        </div>
+        <button class="scroll-indicator" onclick="scrollToSection('about')" aria-label="Scroll to About section">
+            <i class="fas fa-chevron-down"></i>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">About Me</h2>
+            <div class="divider"></div>
+            <p class="section-subtitle">
+                Combining engineering expertise with business development skills and sales excellence
+            </p>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-card animate-left">
+                <h3>Engineering Background</h3>
+                <p>
+                    As a Mechatronics Engineering student at the University of Jordan, I'm building a strong 
+                    technical foundation that powers my analytical approach to business challenges. This 
+                    interdisciplinary education gives me a unique perspective when developing solutions that 
+                    balance technical feasibility with business value.
+                </p>
+            </div>
+            <div class="about-card animate-on-scroll">
+                <h3>International Experience</h3>
+                <p>
+                    My professional journey spans both Jordan and the United States, giving me valuable 
+                    cross-cultural experience and adaptability. Working in different environments has 
+                    enhanced my communication skills and ability to connect with diverse audiences—a 
+                    critical advantage in today's global business landscape.
+                </p>
+            </div>
+            <div class="about-card animate-right">
+                <h3>Proven Sales Excellence</h3>
+                <p>
+                    I've consistently demonstrated exceptional sales abilities, most notably achieving a 
+                    top 5 sales performance ranking at Olive Garden in the United States. This achievement 
+                    showcases my strong customer engagement skills, ability to understand client needs, and 
+                    talent for delivering results in competitive environments.
+                </p>
+            </div>
+        </div>
+
+        
+
+        <div class="cv-download-section animate-on-scroll">
+            <h3 class="cv-download-title">Download My CV</h3>
+            <p class="cv-download-text">
+                Get a comprehensive overview of my qualifications, experience, and achievements
+            </p>
+            <a href="assets\resume.pdf" download class="download-button">
+                <i class="fas fa-download"></i>
+                Download CV
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="section timeline-section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Professional Timeline</h2>
+            <div class="divider"></div>
+            <p class="section-subtitle">
+                My career journey across business development, sales, and international experience
+            </p>
+        </div>
+        
+        <div class="timeline-container">
+            <div class="timeline-center-line"></div>
+            
+            <div class="timeline-item animate-left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Oct 2024 - Present</span>
+                    <h3 class="timeline-title">Business Development</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-building"></i>
+                        <span>Freelance, Jordan</span>
+                    </div>
+                    <p class="timeline-description">
+                        Developed and implemented strategic business plans to drive growth. Coordinated with 
+                        stakeholders to identify and capitalize on market opportunities.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-right">
+                <div class="timeline-content">
+                    <span class="timeline-date">Jul 2023 - Oct 2023</span>
+                    <h3 class="timeline-title">Waiter & Top 5 Sales Performer</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-utensils"></i>
+                        <span>Olive Garden, Virginia, USA</span>
+                    </div>
+                    <p class="timeline-description">
+                        Achieved top 5 in sales performance while delivering excellent customer service in a fast-paced 
+                        restaurant environment. Demonstrated strong upselling and customer engagement skills.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Jul 2023 - Oct 2023</span>
+                    <h3 class="timeline-title">Field Sales Representative</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-car"></i>
+                        <span>Koons (Ford), Virginia, USA</span>
+                    </div>
+                    <p class="timeline-description">
+                        Represented the Ford brand by engaging with potential customers and presenting product benefits. 
+                        Conducted sales activities in the assigned territory to meet and exceed targets.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-right">
+                <div class="timeline-content">
+                    <span class="timeline-date">Jun 2023</span>
+                    <h3 class="timeline-title">Front Desk Attendant</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-hotel"></i>
+                        <span>Super8 Motel, South Dakota, USA</span>
+                    </div>
+                    <p class="timeline-description">
+                        Handled check-ins, reservations, and guest inquiries efficiently. Maintained a welcoming 
+                        atmosphere and resolved guest issues promptly.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Jan 2023 - Jun 2023</span>
+                    <h3 class="timeline-title">Network Marketing</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Freelance, Jordan</span>
+                    </div>
+                    <p class="timeline-description">
+                        Promoted products and services through targeted network strategies. Built and maintained 
+                        strong relationships with clients and partners.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-right">
+                <div class="timeline-content">
+                    <span class="timeline-date">2023</span>
+                    <h3 class="timeline-title">Volunteer Event Organizer</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Ambassadors of Happiness, Jordan</span>
+                    </div>
+                    <p class="timeline-description">
+                        Coordinated breakfast events to foster community engagement and positivity. Collaborated 
+                        with a team to ensure successful event execution.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item animate-left">
+                <div class="timeline-content">
+                    <span class="timeline-date">2021 - Present</span>
+                    <h3 class="timeline-title">Mechatronics Engineering Student</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>The University of Jordan</span>
+                    </div>
+                    <p class="timeline-description">
+                        Currently pursuing a Bachelor's degree in Mechatronics Engineering, developing technical expertise 
+                        and analytical skills through a rigorous academic program.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+<section id="achievements" class="section">
+    <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Major Achievements</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">
+            Key accomplishments showcasing my skills and professional excellence
+        </p>
+    </div>
+    
+    <div class="achievements-container" id="achievementsContainer">
+        <div class="achievements-grid" id="achievementsGrid">
+            <div class="achievement-card animate-left">
+                <div class="achievement-image">
+                    <img src="assets\highlight-jordan-logo.png" alt="Highlight Jordan Event Logo" loading="lazy">
+                    <div class="achievement-overlay">Event Marketing</div>
+                </div>
+                <div class="achievement-content">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="achievement-title">Marketing Team in Highlight Jordan</h3>
+                    </div>
+                    <p class="achievement-description">
+                        Currently, I'm part of the marketing team for Highlight Jordan, an upcoming event taking place on June 18th at Kempinski Hotel – Dead Sea. I'm actively involved in promoting the event and enhancing its visibility across different platforms.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="achievement-card animate-on-scroll">
+                <div class="achievement-image">
+                    <img src="assets\JEF2025.jpeg" alt="Jordanian Esports Championship Trophy" loading="lazy">
+                    <div class="achievement-overlay">Championship Victory</div>
+                </div>
+                <div class="achievement-content">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="achievement-title">Business Manager for Winning Team - JEF 2025</h3>
+                    </div>
+                    <p class="achievement-description">
+                        Team leader, sponsor coordinator, and business manager for championship-winning 
+                        esports team. Successfully combining strategic gameplay excellence with comprehensive 
+                        business management and sponsor relationship development.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="achievement-card animate-right">
+                <div class="achievement-image">
+                    <img src="assets\GC-Knights-logo.png" alt="GC Knights Anniversary Event Logo" loading="lazy">
+                    <div class="achievement-overlay">Event Sponsorship</div>
+                </div>
+                <div class="achievement-content">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3 class="achievement-title">Head of Marketing Team GC Knights Anniversary</h3>
+                    </div>
+                    <p class="achievement-description">
+                       During my time with GC KNIGHTS, I was responsible for securing sponsors for the company's annual event. Through strategic outreach and negotiation, I successfully brought in multiple sponsors, contributing to an unforgettable and high-energy event that exceeded expectations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="achievement-card animate-left">
+                <div class="achievement-image">
+                    <img src="assets\rugby-team.jpeg" alt="Jordan National Rugby Team in Action" loading="lazy">
+                    <div class="achievement-overlay">National Sports</div>
+                </div>
+                <div class="achievement-content">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">
+                            <i class="fas fa-football-ball"></i>
+                        </div>
+                        <h3 class="achievement-title">Rugby - Jordan National Team</h3>
+                    </div>
+                    <p class="achievement-description">
+                         Representing Jordan at the highest level in international rugby competitions, 
+                        showcasing athletic excellence and national pride on the global stage. 
+                        Contributing to Jordan's rugby legacy through dedication, skill, and leadership.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint" id="scrollHint">
+            <i class="fas fa-arrow-right"></i> Swipe to see more achievements
+        </div>
+        <div class="achievement-nav">
+            <button class="achievement-nav-btn prev" id="achievementPrev" aria-label="Previous achievement">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="achievement-nav-btn next" id="achievementNext" aria-label="Next achievement">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="divider"></div>
+            <p class="section-subtitle">
+                Interested in discussing opportunities or collaborations? Get in touch!
+            </p>
+        </div>
+        
+        <div class="contact-container">
+            <form class="contact-form animate-on-scroll" id="contactForm" action="https://formspree.io/f/xblobwlb" method="POST">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
+                
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="footer-title">Let's <span>Connect</span></h3>
+            <div class="contact-links">
+                <a href="mailto:abdadwan969@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>abdadwan969@gmail.com</span>
+                </a>
+                <a href="tel:+962798644644" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    <span>+962 7 9864 4644</span>
+                </a>
+                <a href="https://www.linkedin.com/in/abdulrahman-aladwan-aba419358/" class="contact-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="contact-link">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Amman, Jordan</span>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Abdulrahman Aladwan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+<script src="script.js"></script>
+</body>
+</html>
